@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+  background-size: 300% 300%;
+  -webkit-animation: Background 25s ease infinite;
+  -moz-animation: Background 25s ease infinite;
+  animation: Background 25s ease infinite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Machine{
+  text-align: center;
+
+}
+.btoneessss{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: hsl(73, 49%, 61%);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px hsl(0, 0%, 0%);
+  
+}
+.btoneessss:hover {background-color:  hsl(73, 49%, 61%)}
+
+.btoneessss:active {
+  background-color: #fd0303;
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(4px);
+}
+h1{
+  color:rgb(134, 6, 6);
+  font-size:500%;
+  text-align: center;
+  font-family: cursive;
+}
+.audio{
+  display: none;
+}
